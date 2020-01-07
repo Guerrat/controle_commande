@@ -1,0 +1,11 @@
+sudo adduser examen1
+sudo adduser examen2
+sudo cp /media/ygorra/DISK_IMG/examen_cao_4tea406u/ /home/examen1/ -rf
+sudo cp /media/ygorra/DISK_IMG/examen_cao_4tea406u/ /home/examen2/ -rf
+sudo chmod o-r-x-w /home/examen2 --recursive
+sudo chmod o-r-x-w /home/etudiant --recursive
+sudo chmod o-r-x-w /home/examen1 --recursive
+sudo chown examen1 /home/examen1/ --recursive
+sudo chgrp examen1 /home/examen1/ --recursive
+sudo chown examen2 /home/examen2/ --recursive
+sudo chgrp examen2 /home/examen2/ --recursive
